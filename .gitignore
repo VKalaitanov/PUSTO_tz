@@ -1,0 +1,26 @@
+*.pyc
+__pycache__/
+
+# Environment variables
+.env
+
+*.log
+*.pot
+*.pyc
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+local_settings.py
+
+db.sqlite3
+
+staticfiles/
+media/
+fixtures/
+*/migrations/*.py
+!*/migrations/__init__.py
+
+.vscode/
