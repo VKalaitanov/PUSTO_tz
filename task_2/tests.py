@@ -7,6 +7,9 @@ from .models import Player, Level, Prize, PlayerLevel, LevelPrize
 
 
 class PlayerLevelTestCase(TestCase):
+    """
+    Проверка добавления нескольких призов
+    """
 
     def setUp(self):
         self.player = Player.objects.create(player_id="player1")
